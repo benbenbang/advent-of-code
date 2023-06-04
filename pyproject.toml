@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "advent-of-code"
+version = "0.1.0"
+description = ""
+authors = ["benbenbang <bn@bitbrew.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pre-commit = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
